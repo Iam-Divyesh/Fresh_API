@@ -991,7 +991,7 @@ if st.button("🔍 Find Candidates", type="primary", use_container_width=True, k
 # Show pagination controls for existing search results
 elif 'parsed_data' in st.session_state:
     # Only show pagination if we have a previous search
-    search_with_pagination(st.session_state.parsed_data)
+    pass
 
 # Display search results
 if st.session_state.search_results:
